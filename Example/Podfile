@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UseOpenTools_Example' do
+  pod 'UseOpenTools', :path => '../'
+
+  target 'UseOpenTools_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
