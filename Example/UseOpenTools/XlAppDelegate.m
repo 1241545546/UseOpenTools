@@ -8,11 +8,14 @@
 
 #import "XlAppDelegate.h"
 
+#import "WUserTool.h"
+
 @implementation XlAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    SystemAlterViewShowWithTips(@"", @"", nil, nil);
     return YES;
 }
 
