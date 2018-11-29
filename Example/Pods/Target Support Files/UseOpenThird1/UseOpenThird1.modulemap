@@ -1,0 +1,6 @@
+framework module UseOpenThird1 {
+  umbrella header "UseOpenThird1-umbrella.h"
+
+  export *
+  module * { export * }
+}

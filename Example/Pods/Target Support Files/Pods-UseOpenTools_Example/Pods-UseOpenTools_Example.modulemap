@@ -1,0 +1,6 @@
+framework module Pods_UseOpenTools_Example {
+  umbrella header "Pods-UseOpenTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

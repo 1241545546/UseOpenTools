@@ -1,0 +1,6 @@
+framework module UseOpenTools {
+  umbrella header "UseOpenTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
