@@ -8,6 +8,8 @@
 
 #import "LYNetworkCache.h"
 
+#import "XLOpenHeader.h"
+
 static NSString *const kLYNetworkResponseCache = @"kLYNetworkResponseCache";
 static YYCache *_dataCache;
 

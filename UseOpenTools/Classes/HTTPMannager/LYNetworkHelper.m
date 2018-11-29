@@ -8,7 +8,7 @@
 
 #import "LYNetworkHelper.h"
 #import "AFNetworkActivityIndicatorManager.h"
-
+#import "XLOpenHeader.h"
 
 @implementation LYNetworkHelper
 

@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import "XLOpenHeader.h"
-
 #pragma mark - 网络数据缓存类
 @interface LYNetworkCache : NSObject
 
