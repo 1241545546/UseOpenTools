@@ -22,7 +22,7 @@
 #import "LYHTTPRequest.h"
 #import "LYNetworkCache.h"
 #import "LYNetworkHelper.h"
-#import "UseOpenToolsHeader.h"
+#import "UseOpenTools_OpenHeader.h"
 #import "WUserTool.h"
 
 FOUNDATION_EXPORT double UseOpenToolsVersionNumber;
