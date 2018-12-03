@@ -182,7 +182,6 @@
 		54418C5D577F812F6F5DA91424D6CCD6 /* RACStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 038BDCB7C161E84BC328330C170C5A51 /* RACStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54C39672B39AB590C1D36CFE1FB1A7DD /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3CF8243F5AC4F1C0F6AB0BB56D6E67 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550B8CC30D26409B3483567BE4D1E6B8 /* RACIndexSetSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = C4262FA1482B127C49208DF7E6187D26 /* RACIndexSetSequence.m */; };
-		55254BA3BDF18F401C997E26802D546C /* UseOpenToolsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F648045C2C2956237273651B2D27D1C /* UseOpenToolsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55A2D9CC6367971E87A60C088C6C2E67 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 539E108D9AB0390ABC3BEF9D02A23779 /* MJRefreshAutoFooter.m */; };
 		56B16F4D55A19894516902CA654020D2 /* NSUserDefaults+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A714253E1225E0405C59AB081E80208 /* NSUserDefaults+RACSupport.m */; };
 		57A8141263BCA8482251550F50FB4FEA /* RACBlockTrampoline.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FC171C9425E6553DB4230C0A42F638 /* RACBlockTrampoline.m */; };
@@ -535,7 +534,7 @@
 		0504F0B2B7B11A5C19F7A871A7B07148 /* YYTextWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextWeakProxy.m; path = UseOpenThird1/Classes/YYText/Utility/YYTextWeakProxy.m; sourceTree = "<group>"; };
 		066AE7474D46A2CCCEBE5C8D26DB39A6 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = UseOpenThird1/Classes/ReactiveObjC/extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
 		06D4B959E86FF30998EE5A65D680888D /* YYTextAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextAttribute.m; path = UseOpenThird1/Classes/YYText/String/YYTextAttribute.m; sourceTree = "<group>"; };
-		06E8935C801C339B1A8D232FF4AC9BB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		06E8935C801C339B1A8D232FF4AC9BB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		07030F528EB805B4885106FF7841203F /* UseOpenTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UseOpenTools.modulemap; sourceTree = "<group>"; };
 		0747306E368A93E35F37876CE848AB5A /* RACEmptySignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEmptySignal.m; path = UseOpenThird1/Classes/ReactiveObjC/RACEmptySignal.m; sourceTree = "<group>"; };
 		07F53B18E5AA64993E532E2BD9ECCC9F /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UseOpenThird1/Classes/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
@@ -545,7 +544,7 @@
 		08F07FFFE960D708460DDBC2DB053A29 /* RACEmptySequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEmptySequence.h; path = UseOpenThird1/Classes/ReactiveObjC/RACEmptySequence.h; sourceTree = "<group>"; };
 		09151F87C9AF07D8C30E097D403C2431 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		0B2EB790C138C64584D2804194E89AD9 /* UITextField+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+RACSignalSupport.h"; path = "UseOpenThird1/Classes/ReactiveObjC/UITextField+RACSignalSupport.h"; sourceTree = "<group>"; };
-		0B9AA645A007880611CF08BBE623F9F0 /* RACSignalProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; name = RACSignalProvider.d; path = UseOpenThird1/Classes/ReactiveObjC/RACSignalProvider.d; sourceTree = "<group>"; };
+		0B9AA645A007880611CF08BBE623F9F0 /* RACSignalProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.dtrace; name = RACSignalProvider.d; path = UseOpenThird1/Classes/ReactiveObjC/RACSignalProvider.d; sourceTree = "<group>"; };
 		0E932A3BC6B83511FE1D39C1FFE1B32D /* YYTextEffectWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextEffectWindow.m; path = UseOpenThird1/Classes/YYText/Component/YYTextEffectWindow.m; sourceTree = "<group>"; };
 		0EAD8EB6D799D7707D6D95BD99B57CB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F2E0FC2372E9694CC2FAEE7F76D27B2 /* Pods-UseOpenTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UseOpenTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -565,7 +564,7 @@
 		14BB8B8A1C91D6D628683F31B27E6A72 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "UseOpenThird1/Classes/SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		14DCA4C16D4BF9E464B2FB5FE838F6AB /* RACSignal+Operations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RACSignal+Operations.h"; path = "UseOpenThird1/Classes/ReactiveObjC/RACSignal+Operations.h"; sourceTree = "<group>"; };
 		1514841A96F4CF3CC426CFEBA9D524CF /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UseOpenThird1/Classes/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		1565699A90A9A53FB305C2BD94889565 /* UseOpenThird1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UseOpenThird1.framework; path = UseOpenThird1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1565699A90A9A53FB305C2BD94889565 /* UseOpenThird1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UseOpenThird1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1568DEE5713E0D7B1D881E728DA7302F /* Pods-UseOpenTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UseOpenTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		159FCE8E105CF7FD33C5E59CD14AA9A0 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "UseOpenThird1/Classes/MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
 		15A85169CBA2BD045DBA8EFD53E3575D /* SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAutoLayout.h; path = UseOpenThird1/Classes/SDAutoLayout/SDAutoLayout.h; sourceTree = "<group>"; };
@@ -593,7 +592,7 @@
 		22885B7A69B5C6F572F8BE107407C30A /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = UseOpenThird1/Classes/AFNetworking/AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		2332EAFF7EDC7AB16A0FC17F745C022F /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = UseOpenThird1/Classes/MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
 		2414802568E175E856FEFD61DECFFA63 /* PBViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PBViewController.m; path = UseOpenThird1/Classes/PhotoBrower/PBViewController.m; sourceTree = "<group>"; };
-		251F19AA49523604692CD29334F1E7A1 /* RACCompoundDisposableProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; name = RACCompoundDisposableProvider.d; path = UseOpenThird1/Classes/ReactiveObjC/RACCompoundDisposableProvider.d; sourceTree = "<group>"; };
+		251F19AA49523604692CD29334F1E7A1 /* RACCompoundDisposableProvider.d */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.dtrace; name = RACCompoundDisposableProvider.d; path = UseOpenThird1/Classes/ReactiveObjC/RACCompoundDisposableProvider.d; sourceTree = "<group>"; };
 		2696221F9B1E8CF48974F6782C1BD189 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = UseOpenThird1/Classes/MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
 		275A70F9A3BEF6933823A7667DBF9898 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		27A3DB42687685CF59B34A88A35D719B /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = UseOpenThird1/Classes/ReactiveObjC/extobjc/metamacros.h; sourceTree = "<group>"; };
@@ -623,7 +622,7 @@
 		32211FA21714FCB63633BB690D10985E /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = UseOpenThird1/Classes/SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		3415C9107D4E97ACA989761D249B301B /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		34F3EC8B0573E5F032B484255B463355 /* UIRefreshControl+RACCommandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+RACCommandSupport.m"; path = "UseOpenThird1/Classes/ReactiveObjC/UIRefreshControl+RACCommandSupport.m"; sourceTree = "<group>"; };
-		353EEFD90C126925B3C32BFA8EFDBBE8 /* UseOpenTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UseOpenTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		353EEFD90C126925B3C32BFA8EFDBBE8 /* UseOpenTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = UseOpenTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		354B69B3F2BF9B7D8704233577347BFD /* UseOpenTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UseOpenTools.xcconfig; sourceTree = "<group>"; };
 		360A58B91A4CFA35CAA555FC8849A706 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = UseOpenThird1/Classes/MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
 		3666CD909D90A312D8625171704DF0CD /* YYTextUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextUtilities.m; path = UseOpenThird1/Classes/YYText/Utility/YYTextUtilities.m; sourceTree = "<group>"; };
@@ -642,14 +641,13 @@
 		3BD75B03DED85382694846545AAB7077 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = UseOpenThird1/Classes/MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
 		3DB8509F4E8A5B6A5A338B0F3455128A /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = UseOpenThird1/Classes/MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
 		3DD4A3F2A33751869FE7C804198946E0 /* Pods-UseOpenTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UseOpenTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3F648045C2C2956237273651B2D27D1C /* UseOpenToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UseOpenToolsHeader.h; path = UseOpenTools/Classes/UseOpenToolsHeader.h; sourceTree = "<group>"; };
 		3FE63B02FB531748E37D4F270359BDE8 /* YYLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYLabel.m; path = UseOpenThird1/Classes/YYText/YYLabel.m; sourceTree = "<group>"; };
 		41734C88C8477037FC2858A976F292FC /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "UseOpenThird1/Classes/SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		4191F17A8FE15FC45F95EE613258D94F /* YYTextUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextUtilities.h; path = UseOpenThird1/Classes/YYText/Utility/YYTextUtilities.h; sourceTree = "<group>"; };
 		42E07DB1DF0701636192D1E133D75757 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = UseOpenThird1/Classes/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		4319640B10EE2EF022A2F80C20D77C05 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "UseOpenThird1/Classes/MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
 		43241736DBF3FB660A5F554C740D2A65 /* RACValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACValueTransformer.m; path = UseOpenThird1/Classes/ReactiveObjC/RACValueTransformer.m; sourceTree = "<group>"; };
-		4338FF65BEC120C59DD07FDC5C1ECA17 /* Pods_UseOpenTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UseOpenTools_Example.framework; path = "Pods-UseOpenTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4338FF65BEC120C59DD07FDC5C1ECA17 /* Pods_UseOpenTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UseOpenTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		435A98312DAFAC44C325E0E1F4B975A2 /* TAAbstractDotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAAbstractDotView.h; path = UseOpenThird1/Classes/SDCycleScrollView/PageControl/TAAbstractDotView.h; sourceTree = "<group>"; };
 		4365A4016D1ACA4B5FFFEC7C9AE6560D /* YYTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextView.m; path = UseOpenThird1/Classes/YYText/YYTextView.m; sourceTree = "<group>"; };
 		438B32330D4DEEA2D2F70EA15B229881 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = UseOpenThird1/Classes/SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
@@ -802,12 +800,12 @@
 		8F7D6AFDDCD0017BDBA3E0085333E000 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = UseOpenThird1/Classes/MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
 		90C0B9247883BE2730831083D9D27AF5 /* YYTextInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextInput.m; path = UseOpenThird1/Classes/YYText/Component/YYTextInput.m; sourceTree = "<group>"; };
 		90D5AECF33F3E176A3A6CFA353D62E21 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MKAnnotationView+WebCache.m"; path = "UseOpenThird1/Classes/SDWebImage/MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
-		915C6F219243AB601E1E2C17A4E2CF41 /* UseOpenTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UseOpenTools.framework; path = UseOpenTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		915C6F219243AB601E1E2C17A4E2CF41 /* UseOpenTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UseOpenTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DBE6D075DEDA9B529A24338FF999A8 /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPasteboard+YYText.h"; path = "UseOpenThird1/Classes/YYText/Utility/UIPasteboard+YYText.h"; sourceTree = "<group>"; };
 		928BEDD7BB83B1B6BF601C8F491BDF60 /* Pods-UseOpenTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UseOpenTools_Example-resources.sh"; sourceTree = "<group>"; };
 		9390EAE3F8F017352BB841B5B117E6A6 /* RACAnnotations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACAnnotations.h; path = UseOpenThird1/Classes/ReactiveObjC/RACAnnotations.h; sourceTree = "<group>"; };
 		939F622598626ACD770E395C8BAF6342 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = UseOpenThird1/Classes/MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		943B69ED40408CA83A21B82B39D23B28 /* RACEmptySequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEmptySequence.m; path = UseOpenThird1/Classes/ReactiveObjC/RACEmptySequence.m; sourceTree = "<group>"; };
 		952D46686FFEDCE73AA32F367C7BB8CE /* PBPresentAnimatedTransitioningController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PBPresentAnimatedTransitioningController.m; path = UseOpenThird1/Classes/PhotoBrower/PBPresentAnimatedTransitioningController.m; sourceTree = "<group>"; };
 		9550175DFA658702E20E9171F842AB8C /* UIActionSheet+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+RACSignalSupport.h"; path = "UseOpenThird1/Classes/ReactiveObjC/UIActionSheet+RACSignalSupport.h"; sourceTree = "<group>"; };
@@ -822,7 +820,7 @@
 		99E1FEEC63A49D1220415296DAD4B0AB /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = UseOpenThird1/Classes/MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
 		9A714253E1225E0405C59AB081E80208 /* NSUserDefaults+RACSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+RACSupport.m"; path = "UseOpenThird1/Classes/ReactiveObjC/NSUserDefaults+RACSupport.m"; sourceTree = "<group>"; };
 		9AAF7AC7D99168FF83F73A57C7B15571 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "UseOpenThird1/Classes/SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
-		9C1181683353B48A1E182CEF75D91151 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9C1181683353B48A1E182CEF75D91151 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9C9C9F3C3D19315C17BB68755470D270 /* YYTextContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextContainerView.m; path = UseOpenThird1/Classes/YYText/Component/YYTextContainerView.m; sourceTree = "<group>"; };
 		9D6DE522F115BB2D0E15D69375D7B87D /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = UseOpenThird1/Classes/MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
 		9D9946A38CFB2780FD46043B43D7B763 /* UICollectionReusableView+RACSignalSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionReusableView+RACSignalSupport.h"; path = "UseOpenThird1/Classes/ReactiveObjC/UICollectionReusableView+RACSignalSupport.h"; sourceTree = "<group>"; };
@@ -1004,13 +1002,13 @@
 		F5E1042879B9A06A28CC9295982EDFBA /* RACPassthroughSubscriber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACPassthroughSubscriber.h; path = UseOpenThird1/Classes/ReactiveObjC/RACPassthroughSubscriber.h; sourceTree = "<group>"; };
 		F5ED13AA92DB7566DC04099B11C55919 /* NSSet+RACSequenceAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+RACSequenceAdditions.h"; path = "UseOpenThird1/Classes/ReactiveObjC/NSSet+RACSequenceAdditions.h"; sourceTree = "<group>"; };
 		F66D4E6A479327FA935280B6BF8630FD /* NSArray+RACSequenceAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+RACSequenceAdditions.m"; path = "UseOpenThird1/Classes/ReactiveObjC/NSArray+RACSequenceAdditions.m"; sourceTree = "<group>"; };
-		F69ECA25E23BC1EE23A3A1F4A4B04790 /* Pods_UseOpenTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UseOpenTools_Tests.framework; path = "Pods-UseOpenTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69ECA25E23BC1EE23A3A1F4A4B04790 /* Pods_UseOpenTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UseOpenTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D0BA95783A4A11FE893E832529A91A /* NSObject+RACPropertySubscribing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RACPropertySubscribing.m"; path = "UseOpenThird1/Classes/ReactiveObjC/NSObject+RACPropertySubscribing.m"; sourceTree = "<group>"; };
 		F6F05552C96A4FA41D0D2ECBE455159A /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		F758A5F915D62BBE9F762AD79706D647 /* TADotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TADotView.m; path = UseOpenThird1/Classes/SDCycleScrollView/PageControl/TADotView.m; sourceTree = "<group>"; };
 		F78530888A70EF6BAEBDEC4D6D515326 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = UseOpenThird1/Classes/MJExtension/MJProperty.m; sourceTree = "<group>"; };
 		F7FC171C9425E6553DB4230C0A42F638 /* RACBlockTrampoline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACBlockTrampoline.m; path = UseOpenThird1/Classes/ReactiveObjC/RACBlockTrampoline.m; sourceTree = "<group>"; };
-		F80A6BC4C1CE2A1E41AEF2CD12586C7E /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80A6BC4C1CE2A1E41AEF2CD12586C7E /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81CCCCC8E0C12D2EC33D7F4ECE3EDC5 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		F85ACDEF86E635082AD8BA9A8B29A382 /* YYTextRubyAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextRubyAnnotation.h; path = UseOpenThird1/Classes/YYText/String/YYTextRubyAnnotation.h; sourceTree = "<group>"; };
 		F86D7E3346F7B65F03C04723F09A1304 /* ReactiveObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReactiveObjC.h; path = UseOpenThird1/Classes/ReactiveObjC/ReactiveObjC.h; sourceTree = "<group>"; };
@@ -1102,7 +1100,6 @@
 				48576C6EAB1540954DFD81F0995A994A /* Support Files */,
 				64B841D7F32F5E68A560F2965FCDD19C /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -1212,7 +1209,6 @@
 				AD6F40E978588DE35C1A3EF0E0C294B5 /* UIView+Frame.m */,
 				475C1C198DE53090B9423964CF1144C6 /* 归档.zip */,
 			);
-			name = UIView;
 			path = UIView;
 			sourceTree = "<group>";
 		};
@@ -1236,7 +1232,6 @@
 				1AF0A1652610EFB9F9D5071AF92FAE0D /* UIColor+ColorChange.h */,
 				6F441AF5443070B1C7349D5B9F4A4E2B /* UIColor+ColorChange.m */,
 			);
-			name = UIColor;
 			path = UIColor;
 			sourceTree = "<group>";
 		};
@@ -1656,7 +1651,6 @@
 				0504F0B2B7B11A5C19F7A871A7B07148 /* YYTextWeakProxy.m */,
 				83077E382E6EA9C4A13D575811D56AEB /* Support Files */,
 			);
-			name = UseOpenThird1;
 			path = UseOpenThird1;
 			sourceTree = "<group>";
 		};
@@ -1670,7 +1664,6 @@
 				B85CF1C250087BA1A33BC71F1F79FE15 /* UIImage+ScreenShot.h */,
 				767374C48071A772A35923F6AD17C4C8 /* UIImage+ScreenShot.m */,
 			);
-			name = UIImage;
 			path = UIImage;
 			sourceTree = "<group>";
 		};
@@ -1686,7 +1679,6 @@
 		9C55110089D4E30C25C9A0F86104CD9E /* UseOpenTools */ = {
 			isa = PBXGroup;
 			children = (
-				3F648045C2C2956237273651B2D27D1C /* UseOpenToolsHeader.h */,
 				40B600BAFD331E946C5B228CF4651226 /* Category */,
 				0C3EFF9885DDB84666DC2048D1F057E7 /* HTTPMannager */,
 				57B857CAC9CD47EABCBC8053555D5212 /* Pod */,
@@ -1794,7 +1786,6 @@
 				2A0EA0413CEFADE5D146D843D7EAB394 /* NSString+Size.h */,
 				D822178D121E027AF66F43B0B76D82EA /* NSString+Size.m */,
 			);
-			name = NSString;
 			path = NSString;
 			sourceTree = "<group>";
 		};
@@ -1804,7 +1795,6 @@
 				611D0B334F68C088845C915DC0BA9E12 /* UIBarButtonItem+LYExtension.h */,
 				D8AB2A5474C215415B363C7FDC1119C4 /* UIBarButtonItem+LYExtension.m */,
 			);
-			name = UIBarButtonItem;
 			path = UIBarButtonItem;
 			sourceTree = "<group>";
 		};
@@ -1814,7 +1804,6 @@
 				1058BB1B6FA853CDD32AABB787E818C1 /* UILabel+Extension.h */,
 				D80283F02638A23726F82344B5EDD4B2 /* UILabel+Extension.m */,
 			);
-			name = UILabel;
 			path = UILabel;
 			sourceTree = "<group>";
 		};
@@ -2091,7 +2080,6 @@
 				5BFB6EF7D13E91E1E5F5F80180EFBD41 /* UILabel+Extension.h in Headers */,
 				3F63DB1C152CA1EBDC1462DEBC574535 /* UIView+Frame.h in Headers */,
 				79A84ED1C8AE9E147E10E9F9B1752FAF /* UseOpenTools-umbrella.h in Headers */,
-				55254BA3BDF18F401C997E26802D546C /* UseOpenToolsHeader.h in Headers */,
 				E4DCD21727327AFD496A882A00963E79 /* WUserTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
