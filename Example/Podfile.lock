@@ -5,7 +5,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - UseOpenThird1 (1.0.3)
-  - UseOpenTools (1.0.0):
+  - UseOpenTools (1.0.1):
     - UseOpenThird1 (~> 1.0.3)
 
 DEPENDENCIES:
@@ -24,7 +24,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   UseOpenThird1: 8bb45f223c5dd077ff52ac65cfbb076a8964b9ce
-  UseOpenTools: 435430f1659463aee00abf4881ea801fcbce0277
+  UseOpenTools: 6c841502406ba9743faceab0b9464c59668f16f1
 
 PODFILE CHECKSUM: c3320ffc9ce4e5524e80c2cd6d4f8bd9ac4569cc
 

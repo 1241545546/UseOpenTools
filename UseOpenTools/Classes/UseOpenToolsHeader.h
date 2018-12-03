@@ -1,14 +1,17 @@
+//
+//  UseOpenToolsHeader.h
+//  UseOpenTools
+//
+//  Created by sawu on 2018/12/3.
+//  Copyright © 2018年 1241545546@qq.com. All rights reserved.
+//
+
+#ifndef UseOpenToolsHeader_h
+#define UseOpenToolsHeader_h
+
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
 #else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
 
 #import "NSString+LYExtension.h"
 #import "NSString+Size.h"
@@ -22,9 +25,8 @@
 #import "LYHTTPRequest.h"
 #import "LYNetworkCache.h"
 #import "LYNetworkHelper.h"
-#import "UseOpenToolsHeader.h"
-#import "WUserTool.h"
+#import "UseOpenTools-umbrella.h"
+#import "XLPrivateData-umbrella.h"
 
-FOUNDATION_EXPORT double UseOpenToolsVersionNumber;
-FOUNDATION_EXPORT const unsigned char UseOpenToolsVersionString[];
 
+#endif /* UseOpenToolsHeader_h */
